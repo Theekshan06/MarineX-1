@@ -131,7 +131,7 @@ class ComprehensiveRAGSystem:
         self.all_samples = all_samples
         st.success(f"Total loaded samples: {len(all_samples)}")
 
-        # Show category distribution
+        # Show category-distribution
         categories = {}
         for sample in all_samples:
             if 'metadata' in sample and 'category' in sample['metadata']:
