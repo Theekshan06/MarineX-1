@@ -465,7 +465,7 @@ class WorkingRAGSystem:
         tables = {
             'floats': f"{parquet_path}/floats.parquet",
             'profiles': f"{parquet_path}/profiles.parquet",
-            'measurements': f"{parquet_path}/measurements_sample.parquet"
+            'measurements': f"{parquet_path}/measurements.parquet"
         }
         
         for table_name, file_path in tables.items():
